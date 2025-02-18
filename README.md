@@ -1,9 +1,23 @@
-# paper-cast
+# PaperCAST
 
-I am building a product called Mximoph, the USP of this product is  the ability to create a curated podcast based on your research paper (documents). Instead of slogging through a dense research paper, you can listen to two AI voices have a conversation, summarizing it.
+PaperPod is a web tool that converts research papers into engaging, conversational podcasts using AI. It fetches papers from arXiv, summarizes them, generates a script between two hosts, and converts it into audio.
 
-This can be a game-changer for busy professionals or students who want to digest information while multitasking.
+## Features
+- Fetch research papers from arXiv.
+- Summarize and extract key points using NLP.
+- Generate a conversational podcast script.
+- Convert text to speech with gTTS.
 
-You could get personalized news podcasts, custom book summaries, or even an audio breakdown of any research paper? This could be a glimpse into the future of content consumption, where we’re listening to custom content created just for us.
-
-This feature is more than just text-to-speech software—the podcast is not a verbal transcription. Instead, it’s a conversation between two hosts discussing the key points of the documents. The format is really like listening to a podcast. The voices are remarkably human and emotive.
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/PaperPod.git
+   ```
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Download the `en_core_web_sm` model for `spacy`:
+   ```bash
+   python -m spacy download en_core_web_sm
+   ```
