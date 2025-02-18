@@ -5,13 +5,14 @@ body {
 }
 
 input[type="text"] {
+    width: 80%;
     padding: 10px;
-    width: 300px;
+    margin: 10px 0;
 }
 
 button {
     padding: 10px 20px;
-    background-color: #4CAF50;
+    background-color: #007bff;
     color: white;
     border: none;
     cursor: pointer;
@@ -19,4 +20,27 @@ button {
 
 button:hover {
     background-color: #45a049;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.alert {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.alert-error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+audio {
+    width: 100%;
+    margin: 20px 0;
 }
